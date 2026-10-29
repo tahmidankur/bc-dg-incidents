@@ -1,0 +1,15 @@
+DGIR_Number,Incident_Name,Incident_Date_Time,Date_Time_Logged,DGIR_Last_Updated,Nearest_Geographic,Area,MOE_Region,Sector,Event_Type,DGIR_Coordinates,DGIR_Latitude,DGIR_Longitude,Data_ID_Parent_Details,FK_Table_257_Spills,Material,Material_Substance_Class,Material_Quantity,Material_Unit_of_Measure
+900001,,2021-03-15 10:00:00,2021-03-15 11:00:00,2021-03-16 09:00:00,,Test Area,Lower Mainland,Commercial,Equipment Failure,,49.2,-123.1,1,1,Diesel; Waste oil,"5-TDG Class 3, Flammable Liquids; 18-Waste oil",150; 3,L; kg
+900002,,2021-04-02 08:00:00,2021-04-02 09:00:00,2021-04-02 10:00:00,,Test Area,Northern,Mining,Human Error,,54.0,-125.0,2,2,Diesel; Gasoline,"5-TDG Class 3, Flammable Liquids; 5-TDG Class 3, Flammable Liquids",10; 20,L; L
+900003,,2021-05-01 08:00:00,2021-05-01 09:00:00,2021-05-01 10:00:00,,Test Area,Northern,Mining,Human Error,,54.0,-125.0,3,3,Diesel,"5-TDG Class 3, Flammable Liquids",10,L
+900003,,2021-05-01 08:00:00,2021-05-01 09:00:00,2021-05-01 10:00:00,,Test Area,Northern,Mining,Human Error,,54.0,-125.0,3,3,Diesel,"5-TDG Class 3, Flammable Liquids",10,L
+,,2021-06-01 08:00:00,2021-06-01 09:00:00,2021-06-01 10:00:00,,Test Area,Northern,Mining,Human Error,,54.0,-125.0,4,4,Diesel,"5-TDG Class 3, Flammable Liquids",10,L
+900005,,2021-02-30 10:00:00,2021-03-01 09:00:00,2021-03-01 10:00:00,,Test Area,Southern Interior,Industrial,Equipment Failure,,50.7,-120.3,5,5,Coolant,18-Waste oil,5,L
+900006,,,2022-03-01 09:00:00,2022-03-01 10:00:00,,Test Area,Southern Interior,Industrial,Equipment Failure,,50.7,-120.3,6,6,Coolant,18-Waste oil,5,L
+900007,,1961-02-01 12:00:00,2023-02-01 09:00:00,2023-02-01 10:00:00,,Test Area,Southern Interior,Industrial,Equipment Failure,,50.7,-120.3,7,7,Coolant,18-Waste oil,5,L
+900008,,2022-01-10 12:00:00,2022-01-10 13:00:00,2022-01-10 14:00:00,,Test Area,Lower Mainland,Transportation,MVI,,40.2,-73.9,8,8,Diesel,"5-TDG Class 3, Flammable Liquids",50,L
+900009,,2022-02-10 12:00:00,2022-02-10 13:00:00,2022-02-10 14:00:00,,Test Area,0,Government,Unknown,,48.4,-123.4,9,9,Sewage,"24-A substance, not covered by items 1 to 23, that can cause pollution",Unknown,
+900010,,,2024-11-04 05:34:12,2024-11-04 05:34:26,,,,,,,,,10,,,,,
+900010,,2024-01-01 10:30:00,2024-01-01 10:29:28,2024-01-03 08:38:40,,Test Area,Vancouver Island,Unknown,Unknown,,48.9,-123.7,11,11,Vessel Adrift,27-No spill or release occurred/potential spill,Unknown,
+900011,,2020-11-25 09:00:00,2020-11-25 10:00:00,2020-11-25 11:00:00,,Test Area,Vancouver Island,Recreational,Sinking/Grounding,,48.5,-123.4,12,12,Gasoline,"12- TDG Class 8, Corrosives",2,L
+900012,,2026-10-27 09:00:00,2026-10-27 10:00:00,2026-10-27 11:00:00,,Test Area,Lower Mainland,Residential,Human Error,,not a number,-123.1,13,13,,,,
