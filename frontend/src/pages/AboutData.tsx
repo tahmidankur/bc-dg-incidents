@@ -3,7 +3,7 @@ import { reportsWithLocation, totalReports } from "../lib/counts";
 import { formatDate, formatNumber, formatPercent } from "../lib/format";
 import type { SiteData } from "../types";
 
-const REPOSITORY = "https://github.com/tahmidankur/bc-dg-incidents-demo";
+const REPOSITORY = "https://github.com/tahmidankur/bc-dg-incidents";
 
 const REBUILD_COMMANDS = `python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt

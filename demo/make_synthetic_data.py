@@ -179,7 +179,7 @@ def write_source_info(path: Path) -> None:
         "source_last_modified": published.strftime("%a, %d %b %Y %H:%M:%S GMT"),
         "catalogue_page": "https://catalogue.data.gov.bc.ca/dataset/dangerous-goods-incident-reports-dgir-incident-public-access-",
         "licence_title": "Synthetic demo data",
-        "licence_url": "https://github.com/tahmidankur/bc-dg-incidents-demo",
+        "licence_url": "https://github.com/tahmidankur/bc-dg-incidents",
     }
     (path.parent / "source.json").write_text(json.dumps(info, indent=2) + "\n")
 

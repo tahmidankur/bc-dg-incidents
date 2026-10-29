@@ -8,10 +8,10 @@
     "source_last_modified": "Mon, 15 Jun 2026 00:00:00 GMT",
     "catalogue_page": "https://catalogue.data.gov.bc.ca/dataset/dangerous-goods-incident-reports-dgir-incident-public-access-",
     "licence_title": "Synthetic demo data",
-    "licence_url": "https://github.com/tahmidankur/bc-dg-incidents-demo",
+    "licence_url": "https://github.com/tahmidankur/bc-dg-incidents",
     "snapshot_date": "2026-06-15"
   },
-  "built_at": "2026-10-29T03:51:58+00:00",
+  "built_at": "2026-10-29T03:59:39+00:00",
   "system_start": "2020-11-01",
   "location_box": {
     "latitude": [

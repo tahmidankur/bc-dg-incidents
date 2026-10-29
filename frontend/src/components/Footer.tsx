@@ -1,6 +1,6 @@
 import type { Meta } from "../types";
 
-const REPOSITORY = "https://github.com/tahmidankur/bc-dg-incidents-demo";
+const REPOSITORY = "https://github.com/tahmidankur/bc-dg-incidents";
 
 function Footer({ meta }: { meta: Meta }) {
   return (
