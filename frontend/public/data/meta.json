@@ -1,0 +1,547 @@
+{
+  "source": {
+    "file": "synthetic_demo.csv",
+    "size_bytes": 751670,
+    "sha256": "48432be1bc9e9111f1bd988002a8b478bcfff3fc91d2d84d97adb865961666f1",
+    "downloaded_at": "2026-06-15T00:00:00+00:00",
+    "source_url": "synthetic",
+    "source_last_modified": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "catalogue_page": "https://catalogue.data.gov.bc.ca/dataset/dangerous-goods-incident-reports-dgir-incident-public-access-",
+    "licence_title": "Synthetic demo data",
+    "licence_url": "https://github.com/tahmidankur/bc-dg-incidents-demo",
+    "snapshot_date": "2026-06-15"
+  },
+  "built_at": "2026-10-29T03:51:58+00:00",
+  "system_start": "2020-11-01",
+  "location_box": {
+    "latitude": [
+      47.0,
+      61.0
+    ],
+    "longitude": [
+      -140.0,
+      -113.0
+    ]
+  },
+  "first_month": "2020-11",
+  "last_month": "2026-06",
+  "partial_months": [
+    "2020-11",
+    "2026-06"
+  ],
+  "partial_years": [
+    2020,
+    2026
+  ],
+  "rows_read": 3010,
+  "incidents": 3000,
+  "excluded_rows": [
+    {
+      "reason": "No DGIR number",
+      "rows": 2
+    },
+    {
+      "reason": "Exact duplicate of another row",
+      "rows": 5
+    },
+    {
+      "reason": "Second row for a DGIR number (the fuller row was kept)",
+      "rows": 3
+    }
+  ],
+  "conflicting_dgirs": 3,
+  "totals": {
+    "monthly_counts": [
+      {
+        "month": "2020-11",
+        "reports": 36
+      },
+      {
+        "month": "2020-12",
+        "reports": 31
+      },
+      {
+        "month": "2021-01",
+        "reports": 52
+      },
+      {
+        "month": "2021-02",
+        "reports": 38
+      },
+      {
+        "month": "2021-03",
+        "reports": 41
+      },
+      {
+        "month": "2021-04",
+        "reports": 39
+      },
+      {
+        "month": "2021-05",
+        "reports": 33
+      },
+      {
+        "month": "2021-06",
+        "reports": 43
+      },
+      {
+        "month": "2021-07",
+        "reports": 48
+      },
+      {
+        "month": "2021-08",
+        "reports": 43
+      },
+      {
+        "month": "2021-09",
+        "reports": 37
+      },
+      {
+        "month": "2021-10",
+        "reports": 45
+      },
+      {
+        "month": "2021-11",
+        "reports": 36
+      },
+      {
+        "month": "2021-12",
+        "reports": 34
+      },
+      {
+        "month": "2022-01",
+        "reports": 27
+      },
+      {
+        "month": "2022-02",
+        "reports": 40
+      },
+      {
+        "month": "2022-03",
+        "reports": 40
+      },
+      {
+        "month": "2022-04",
+        "reports": 35
+      },
+      {
+        "month": "2022-05",
+        "reports": 35
+      },
+      {
+        "month": "2022-06",
+        "reports": 56
+      },
+      {
+        "month": "2022-07",
+        "reports": 35
+      },
+      {
+        "month": "2022-08",
+        "reports": 33
+      },
+      {
+        "month": "2022-09",
+        "reports": 34
+      },
+      {
+        "month": "2022-10",
+        "reports": 39
+      },
+      {
+        "month": "2022-11",
+        "reports": 31
+      },
+      {
+        "month": "2022-12",
+        "reports": 28
+      },
+      {
+        "month": "2023-01",
+        "reports": 48
+      },
+      {
+        "month": "2023-02",
+        "reports": 39
+      },
+      {
+        "month": "2023-03",
+        "reports": 30
+      },
+      {
+        "month": "2023-04",
+        "reports": 39
+      },
+      {
+        "month": "2023-05",
+        "reports": 32
+      },
+      {
+        "month": "2023-06",
+        "reports": 30
+      },
+      {
+        "month": "2023-07",
+        "reports": 29
+      },
+      {
+        "month": "2023-08",
+        "reports": 37
+      },
+      {
+        "month": "2023-09",
+        "reports": 46
+      },
+      {
+        "month": "2023-10",
+        "reports": 37
+      },
+      {
+        "month": "2023-11",
+        "reports": 34
+      },
+      {
+        "month": "2023-12",
+        "reports": 47
+      },
+      {
+        "month": "2024-01",
+        "reports": 44
+      },
+      {
+        "month": "2024-02",
+        "reports": 41
+      },
+      {
+        "month": "2024-03",
+        "reports": 40
+      },
+      {
+        "month": "2024-04",
+        "reports": 27
+      },
+      {
+        "month": "2024-05",
+        "reports": 38
+      },
+      {
+        "month": "2024-06",
+        "reports": 44
+      },
+      {
+        "month": "2024-07",
+        "reports": 43
+      },
+      {
+        "month": "2024-08",
+        "reports": 32
+      },
+      {
+        "month": "2024-09",
+        "reports": 37
+      },
+      {
+        "month": "2024-10",
+        "reports": 39
+      },
+      {
+        "month": "2024-11",
+        "reports": 49
+      },
+      {
+        "month": "2024-12",
+        "reports": 40
+      },
+      {
+        "month": "2025-01",
+        "reports": 48
+      },
+      {
+        "month": "2025-02",
+        "reports": 28
+      },
+      {
+        "month": "2025-03",
+        "reports": 40
+      },
+      {
+        "month": "2025-04",
+        "reports": 38
+      },
+      {
+        "month": "2025-05",
+        "reports": 38
+      },
+      {
+        "month": "2025-06",
+        "reports": 30
+      },
+      {
+        "month": "2025-07",
+        "reports": 40
+      },
+      {
+        "month": "2025-08",
+        "reports": 37
+      },
+      {
+        "month": "2025-09",
+        "reports": 25
+      },
+      {
+        "month": "2025-10",
+        "reports": 37
+      },
+      {
+        "month": "2025-11",
+        "reports": 31
+      },
+      {
+        "month": "2025-12",
+        "reports": 28
+      },
+      {
+        "month": "2026-01",
+        "reports": 56
+      },
+      {
+        "month": "2026-02",
+        "reports": 32
+      },
+      {
+        "month": "2026-03",
+        "reports": 40
+      },
+      {
+        "month": "2026-04",
+        "reports": 36
+      },
+      {
+        "month": "2026-05",
+        "reports": 36
+      },
+      {
+        "month": "2026-06",
+        "reports": 22
+      }
+    ],
+    "region_counts": [
+      {
+        "region": "Lower Mainland",
+        "reports": 730
+      },
+      {
+        "region": "Northern",
+        "reports": 730
+      },
+      {
+        "region": "Southern Interior",
+        "reports": 730
+      },
+      {
+        "region": "Vancouver Island",
+        "reports": 715
+      },
+      {
+        "region": null,
+        "reports": 95
+      }
+    ],
+    "category_counts": [
+      {
+        "category": "event_type",
+        "value": "Human Error",
+        "reports": 490
+      },
+      {
+        "category": "event_type",
+        "value": "Natural Occurrence",
+        "reports": 452
+      },
+      {
+        "category": "event_type",
+        "value": "Intentional",
+        "reports": 431
+      },
+      {
+        "category": "event_type",
+        "value": "Equipment Failure",
+        "reports": 429
+      },
+      {
+        "category": "event_type",
+        "value": "Sinking/Grounding",
+        "reports": 427
+      },
+      {
+        "category": "event_type",
+        "value": "Vehicle Collision",
+        "reports": 418
+      },
+      {
+        "category": "event_type",
+        "value": "Unknown",
+        "reports": 296
+      },
+      {
+        "category": "event_type",
+        "value": null,
+        "reports": 57
+      },
+      {
+        "category": "sector",
+        "value": "Government",
+        "reports": 366
+      },
+      {
+        "category": "sector",
+        "value": "Industrial",
+        "reports": 342
+      },
+      {
+        "category": "sector",
+        "value": "Mining",
+        "reports": 337
+      },
+      {
+        "category": "sector",
+        "value": "Agriculture",
+        "reports": 328
+      },
+      {
+        "category": "sector",
+        "value": "Transportation",
+        "reports": 325
+      },
+      {
+        "category": "sector",
+        "value": "Recreational",
+        "reports": 321
+      },
+      {
+        "category": "sector",
+        "value": "Commercial",
+        "reports": 318
+      },
+      {
+        "category": "sector",
+        "value": "Residential",
+        "reports": 318
+      },
+      {
+        "category": "sector",
+        "value": "Unknown",
+        "reports": 274
+      },
+      {
+        "category": "sector",
+        "value": null,
+        "reports": 71
+      }
+    ],
+    "material_mentions": [
+      {
+        "material_class": "5-TDG Class 3, Flammable Liquids",
+        "reports": 632
+      },
+      {
+        "material_class": "24-A substance, not covered by items 1 to 23, that can cause pollution",
+        "reports": 623
+      },
+      {
+        "material_class": "18-Waste oil",
+        "reports": 593
+      },
+      {
+        "material_class": "12-TDG Class 8, Corrosives",
+        "reports": 592
+      },
+      {
+        "material_class": "2-TDG Class 2.1, Flammable Gases, other than natural gas",
+        "reports": 591
+      },
+      {
+        "material_class": "27-No spill or release occurred/potential spill",
+        "reports": 585
+      },
+      {
+        "material_class": "3-TDG Class 2.2 Non-flammable and Non-toxic Gases",
+        "reports": 584
+      }
+    ],
+    "data_quality": [
+      {
+        "field": "Incident date",
+        "issue": "Not recorded",
+        "reports": 435,
+        "percent": 14.5
+      },
+      {
+        "field": "Incident date",
+        "issue": "Not a valid date",
+        "reports": 0,
+        "percent": 0.0
+      },
+      {
+        "field": "Incident date",
+        "issue": "Before November 2020 or after the snapshot",
+        "reports": 12,
+        "percent": 0.4
+      },
+      {
+        "field": "Location",
+        "issue": "Not recorded",
+        "reports": 95,
+        "percent": 3.2
+      },
+      {
+        "field": "Location",
+        "issue": "Not a valid coordinate",
+        "reports": 0,
+        "percent": 0.0
+      },
+      {
+        "field": "Location",
+        "issue": "Outside the B.C. area",
+        "reports": 8,
+        "percent": 0.3
+      },
+      {
+        "field": "Region",
+        "issue": "Not recorded",
+        "reports": 95,
+        "percent": 3.2
+      },
+      {
+        "field": "Sector",
+        "issue": "Not recorded",
+        "reports": 71,
+        "percent": 2.4
+      },
+      {
+        "field": "Sector",
+        "issue": "Recorded as Unknown",
+        "reports": 274,
+        "percent": 9.1
+      },
+      {
+        "field": "Event type",
+        "issue": "Not recorded",
+        "reports": 57,
+        "percent": 1.9
+      },
+      {
+        "field": "Event type",
+        "issue": "Recorded as Unknown",
+        "reports": 296,
+        "percent": 9.9
+      },
+      {
+        "field": "Substance class",
+        "issue": "Not recorded",
+        "reports": 126,
+        "percent": 4.2
+      }
+    ]
+  }
+}
