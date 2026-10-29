@@ -70,11 +70,10 @@ function Overview({ data, filters, onFiltersChange }: OverviewProps) {
           {formatMonth(meta.last_month, "long")}
         </h1>
         <p>
-          This is a public demo. It runs the same pipeline and site as my real
-          project, but on made-up reports with the same columns as the Province
-          of B.C.&rsquo;s Dangerous Goods Incident Reports dataset. That
-          dataset&rsquo;s licence doesn&rsquo;t allow republishing it, so the
-          real version stays private.
+          This site runs my pipeline on made-up reports with the same columns as
+          the Province of B.C.&rsquo;s Dangerous Goods Incident Reports dataset.
+          That dataset&rsquo;s licence doesn&rsquo;t allow republishing it, so I
+          publish the project with synthetic data instead.
         </p>
         <p className="disclaimer">
           None of these numbers describe real incidents. Student project, not an

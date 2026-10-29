@@ -10,7 +10,7 @@ Demo site: https://bc-dg-incidents-demo.vercel.app
 
 ## Why the data is synthetic
 
-I built the project on the [DGIR Incident (PUBLIC Access)](https://catalogue.data.gov.bc.ca/dataset/dangerous-goods-incident-reports-dgir-incident-public-access-) dataset from the B.C. Data Catalogue. When I checked its licence, it was listed as **Access Only**, which doesn't allow republishing without written permission. So the version with real data and real findings is private while I ask the province for permission, and this repository runs the same code on a generated file with the same columns.
+I built the project on the [DGIR Incident (PUBLIC Access)](https://catalogue.data.gov.bc.ca/dataset/dangerous-goods-incident-reports-dgir-incident-public-access-) dataset from the B.C. Data Catalogue. When I checked its licence, it was listed as **Access Only**, which doesn't allow republishing without written permission. So I publish the project with synthetic data: the same code runs on a generated file with the same columns as the real one.
 
 `demo/make_synthetic_data.py` writes 3,010 rows. Its proportions are round numbers I picked, not taken from the real data. It deliberately includes the problems I found in the real file, so the pipeline has something to do: missing and impossible dates, blank and "Unknown" categories, a region recorded as `0`, bad coordinates, exact duplicate rows, repeated DGIR numbers and rows with no DGIR number.
 
@@ -29,7 +29,7 @@ CSV in the DGIR column layout
   -> React site          filters add up the pre-counted rows
 ```
 
-I used DuckDB because it runs SQL files straight from Python on pandas tables, with no database server to set up. The site only ever loads counts, never individual reports, which is the same design the real version needs for its licence.
+I used DuckDB because it runs SQL files straight from Python on pandas tables, with no database server to set up. The site only ever loads counts, never individual reports, which is also what the real data would need under its licence.
 
 ## How reports are counted
 
@@ -73,6 +73,6 @@ The Python tests use a small fixture (`tests/fixtures/synthetic_dgir.csv`) with 
 
 ## What I'd do next
 
-- Get written permission from the province and publish the real version.
-- Check whether missing incident dates are spread evenly across years, since that decides whether any trend over time can be trusted.
+- Let the generator take its error rates from the command line, so the cleaning rules can be tested on messier and cleaner files.
+- On the real data, check whether missing incident dates are spread evenly across years, since that decides whether any trend over time can be trusted.
 - Compare two snapshots by DGIR number to measure how often provisional records change.

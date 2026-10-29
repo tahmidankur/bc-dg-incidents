@@ -27,9 +27,8 @@ function AboutData({ data }: { data: SiteData }) {
           Dangerous Goods Incident Reports (DGIR) Incident (PUBLIC Access)
         </a>{" "}
         dataset from the B.C. Data Catalogue. Its licence is Access Only, which
-        doesn&rsquo;t allow republishing it without written permission. So the
-        version with real data stays private, and this public copy runs the same
-        code on made-up reports.
+        doesn&rsquo;t allow republishing it without written permission. So this
+        site runs the same code on made-up reports instead.
       </p>
       <p>
         <code>demo/make_synthetic_data.py</code> writes{" "}
