@@ -2,6 +2,8 @@
 
 A Python and SQL pipeline that cleans the Province of B.C.'s Dangerous Goods Incident Reports (DGIR) dataset, and a small static site that shows how the reports break down by month, region, event type, sector and substance class, and how complete each field is.
 
+Demo site: https://bc-dg-incidents-demo.vercel.app
+
 **This public copy runs on synthetic data.** Every report and number in this repository and on the demo site is made up.
 
 ![Overview page with synthetic data](docs/screenshot.png)
